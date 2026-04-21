@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run SMS",
+            "type": "shell",
+            "command": "start cmd /c \"g++ ${file} -o ${fileDirname}\\output && ${fileDirname}\\output & pause\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

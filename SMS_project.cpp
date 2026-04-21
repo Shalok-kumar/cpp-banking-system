@@ -30,14 +30,12 @@ public:
  
         }
 
-        void display(){
-            cout << " Roll " <<rollno
-                 << " Name "<< name 
-                 << " Branch"<<branch
-                 << " CGPA"<<cgpa << endl;
-
+        void display() {
+            cout << " Roll: " << rollno 
+                 << " | Name: " << name
+                 << " | Branch: " << branch
+                 << " | CGPA: " << cgpa << endl;
         }
-
 
 };
 
